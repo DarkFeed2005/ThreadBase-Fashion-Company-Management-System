@@ -1,0 +1,21 @@
+ThreadBase-Fashion-Company-Management-System/
+│── main.py                 # Launch application
+│── database/               
+│   ├── db_operations.py    # All database operations
+│── views/
+│   ├── auth/
+│   │   ├── login.py        # Login page
+│   │   ├── signup.py       # Signup page
+│   ├── admin/
+│   │   ├── dashboard.py    # Admin dashboard
+│   │   ├── users.py        # User management
+│   ├── designer/
+│   │   ├── dashboard.py    # Designer dashboard
+│   │   ├── designs.py      # Design management
+│   ├── sales/
+│   │   ├── dashboard.py    # Sales dashboard
+│   │   ├── sales.py        # Sales management
+│── assets/                 # Images, styles
+│── utils/
+│   ├── styles.py           # Custom styles
+│   ├── helpers.py          # Helper functions
